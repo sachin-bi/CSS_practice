@@ -1,0 +1,44 @@
+/* smiling face using position */
+
+div {
+    /* border: 2px solid black; */
+}
+
+#first {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+    
+}
+
+.eyes{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(95, 85, 85);
+    position: absolute;
+    top: 55px;
+}
+#eye1{
+    
+    left: 40px;
+}
+#eye2{
+   
+    left: 116px;
+}
+#mouth {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: brown;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 53px;
+}
