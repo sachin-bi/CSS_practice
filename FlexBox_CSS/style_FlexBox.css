@@ -1,0 +1,28 @@
+/* practice FLEXBOX: Q1 */
+div{
+    border-radius: 5%;
+    background-color: rgb(166, 164, 164);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(5, 180, 46);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+/* — Span is an inline element. It has no width or height. You could turn it into a block-level element, then it will accept your dimension ... */
