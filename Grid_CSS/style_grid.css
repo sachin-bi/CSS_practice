@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(132, 118, 118);
+    display: inline-block;
+}
+.parent{
+    background-color: #ffffff;
+    /* padding: 10px; */
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px 20px;
+    place-items: center;
+}
+
+.child{
+    text-align: center;
+    background-color: #85ff72;
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+}
+#second{
+    grid-column: 2/4;
+}
