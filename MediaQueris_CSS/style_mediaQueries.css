@@ -1,0 +1,21 @@
+body{
+    background-color: #dedede;
+}
+nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+div{
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: 50px;
+}
+
+@media (max-width:400px) {
+    div{
+        background-color: blueviolet;
+        color: aliceblue;
+        font-size:12vw;
+    
+    }
+}
