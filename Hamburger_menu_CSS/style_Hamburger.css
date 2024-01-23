@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main_box{
+    height: 100vh;
+    background-image: url("photo.jpg");
+    background-size: cover;
+}
+
+.btn_one{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    left: 16;
+}
