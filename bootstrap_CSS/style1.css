@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(169, 168, 167);
+}
+
+.alert + .container {
+    background-color: rgba(255, 255, 0, 0.416);
+}
